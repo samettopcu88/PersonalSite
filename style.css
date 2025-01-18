@@ -513,3 +513,49 @@ section{
     }
 }
 /* Testimonials End */
+
+/* Contact Start */
+.contact{
+    background-color: var(--bg-color);
+}
+
+.contact form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin: 5rem auto;
+    text-align: center;
+}
+
+.input-box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.input-box input, .contact form textarea{
+    width: 100%;
+    padding: 2.5rem;
+    font-size: 1.8rem;
+    color: var(--text-color);
+    background-color: var(--second-bg-color);
+    border-radius: 2rem;
+    border: 2px solid var(--main-color);
+    margin: 1.5rem 0;
+    resize: none;
+}
+
+/* Chrome için */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox için */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+/* Contact End */

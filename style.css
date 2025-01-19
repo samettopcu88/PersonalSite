@@ -686,6 +686,11 @@ input[type="number"] {
 }
 
 @media (max-width: 895px){
+    #menu-icon{
+        display: block;
+        cursor: pointer;
+    }
+
     .navbar{
         position: absolute;
         top: 100%;
@@ -699,6 +704,82 @@ input[type="number"] {
         border-left: 2px solid var(--main-color);
         border-bottom: 2px solid var(--main-color);
         display: none;
+    }
+
+    .navbar a{
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+        color: #fff;
+    }
+
+    .navbar .active{
+        display: block;
+    }
+
+    .home{
+        flex-direction: column-reverse;
+        margin: 5rem 4rem;
+    }
+    
+    .home-content h3{
+        font-size: 2.6rem;
+    }
+
+    .home-content h1{
+        font-size: 8rem;
+        margin-top: 3rem;
+    }
+
+    .home-content p{
+        max-width: 600px;
+    }
+
+    .home-img img{
+        width: 56vw;
+    }
+
+    .services-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width: 575px){
+    .header a{
+        font-size: 2.2rem;
+    }
+
+    .home{
+        gap: 5rem;
+        width: 100%;
+        margin: 0;
+    }
+
+    .home-content h1{
+        font-size: 5rem;
+        margin-bottom: 5rem;
+    }
+
+    .home-content h3{
+        font-size: 3.5rem;
+    }
+
+    .text-animation span{
+        display: block;
+        font-size: 2.8rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .text-animation span::after{
+        content: "";
+        background-color: var(--bg-color);
+        width: calc(100%+8px);
+        height: 100%;
+        position: absolute;
+        border-left: 3px solid var(--bg-color);
+        right: -8px;
+        animation: cursor 06.s infinite, typing 20s steps(14) infinite;
+
     }
 }
 

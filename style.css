@@ -779,8 +779,125 @@ input[type="number"] {
         border-left: 3px solid var(--bg-color);
         right: -8px;
         animation: cursor 06.s infinite, typing 20s steps(14) infinite;
+    }
 
+    .home-content p{
+        font-size: 2rem;
+    }
+
+    .home-content .social-icons, .btn-group{
+        margin: 0 auto;
+    }
+
+    .education{
+        width: 100%;
+    }
+
+    .education h2{
+        font-size: 6rem;
+    }
+
+    h2.heading{
+        font-size: 4.5rem !important;
+    }
+
+    .services-container{
+        margin: 0;
+    }
+
+    .services-info{
+        padding: 7rem 4rem;
+    }
+
+    .services-info h4{
+        line-height: 1;
+        margin-bottom: 14px;
+    }
+
+    .services-info p{
+        font-size: 1.7rem;
+        line-height: 1.5;
+    }
+
+    .testimonial-item:nth-child(2){
+        border: none;
+        box-shadow: none;
+        transform: scale(1);
+        animation: none;
+        
+        min-height: 550px;
+        max-height: 450px;
+        background-color: rgba(0, 0, 0, 0.7);
+        border: 3px solid rgba(238, 238, 238, 0.2);
+        border-radius: 2rem;
+        margin: 0 2rem;
+        padding: 30px 60px;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 1.5rem;
+        color: #fff;
+        transition: 0.4s ease-in-out;
+    }
+
+    .testimonial-item:hover{
+        border: 3px solid var(--main-color);
+        box-shadow: 0 0 50px var(--main-color);
     }
 }
 
+@media screen and (min-width:769px) and (max-width:1024) {
+    .navbar a{
+        font-size: 1.5rem;
+    }
+
+    .home-content h1{
+        font-size: 5rem;
+    }
+
+    .home-content p{
+        font-size: 1.8rem;
+        margin: 0;
+    }
+
+    .home-content h3{
+        font-size: 2.4rem;
+    }
+
+    .services-container{
+        margin: 0;
+    }
+
+    .services-info{
+        padding: 0rem 2rem;
+    }
+
+    .services-info h4{
+        line-height: 1;
+        margin-bottom: 14px;
+    }
+
+    .services-info p{
+        font-size: 1.8rem;
+        line-height: 1;
+    }
+}
+
+@media screen and (min-width:1025px){
+    .home-content h1{
+        font-size: 5rem;
+    }
+
+    .home-content p{
+        font-size: 1.8rem;
+        margin: 0;
+    }
+
+    .home-content h3{
+        font-size: 2.4rem;
+    }
+}
 /* Media Queries End */

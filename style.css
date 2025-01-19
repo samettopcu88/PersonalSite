@@ -280,7 +280,7 @@ section{
 }
 
 .timeline-items{
-    width: 1200px;
+    width: 100%;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -713,7 +713,7 @@ input[type="number"] {
         color: #fff;
     }
 
-    .navbar .active{
+    .navbar.active{
         display: block;
     }
 

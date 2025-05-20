@@ -4,6 +4,7 @@ This project is a personal portfolio website designed to showcase my projects, s
 
 ## 🚀 Technologies Used
 
+- React
 - HTML5
 - CSS3
 - JavaScript
